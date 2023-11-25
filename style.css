@@ -18,6 +18,8 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
