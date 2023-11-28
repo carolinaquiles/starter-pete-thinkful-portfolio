@@ -46,15 +46,15 @@ p {
 
 /* Links */
 a:link {
-  color: #d62828;
+  color: #d62828;!important;
 }
 
 a:hover {
-  color: #f77f00;
+  color: #f77f00;!important;
 }
 
 nav a {
-  padding-left: 20px;
+  padding-left: 20px;!important;
 }
 
 /* Images */
@@ -64,9 +64,20 @@ img {
   height: auto;
 }
 
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  margin: 0 50px; 
+  text-align: left;
+}
+
 .image-circle {
+  display: flex;
   border: 2px solid #003049;
   border-radius: 50%;
+  margin-right: 80px;
+  justify-content: space-between;
 }
 
 /* Footer */
@@ -77,4 +88,12 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/*flex container for portfolio*/
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 0 -10px; 
 }
