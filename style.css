@@ -16,11 +16,13 @@ h3 {
   text-align: center;
 }
 
-/* Header */
+/*flex container for the Header */
 header {
   display: flex;
   align-items: center;
   text-align: center;
+  margin: 0 auto; /* Added to Center the entire flex container horizontally */
+  width: 800px; /* Added to Center the entire flex container horizontally */
 }
 
 /* Containers */
@@ -63,15 +65,19 @@ img {
   max-width: 200px;
   height: auto;
 }
-
+/*flex container for the about section*/
 .about {
   display: flex;
   justify-content: space-between;
   padding: 80px;
-  margin: 0 50px; 
+  margin: 0 auto; /* Adjusted to Center the entire flex container horizontally */
+  max-width: 800px; /* Optional: Set a maximum width for better readability */ 
   text-align: left;
+  font-size: 14px; /* Added to set the font size */
+
 }
 
+/*flex container for image-circle*/
 .image-circle {
   display: flex;
   border: 2px solid #003049;
@@ -95,5 +101,6 @@ hr {
   display: flex;
   justify-content: space-between;
   padding: 50px;
-  margin: 0 -10px; 
+  margin: 0 auto; /* Adjusted to Center the entire flex container horizontally */
+  font-size: 14px; /* Added to set the font size */
 }
