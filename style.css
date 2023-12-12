@@ -103,7 +103,6 @@ hr {
 .portfolio {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
   margin: 0 auto; /* Adjusted to Center the entire flex container horizontally */
   font-size: 14px; /* Added to set the font size */
 }
